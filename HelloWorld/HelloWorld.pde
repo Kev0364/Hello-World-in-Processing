@@ -5,25 +5,29 @@ println("You said \"Hello!\" to me.");
 //
 String name = "Kevin Deng";
 String phrase = "can count to";
-int first_number = 3;
-long higherNumber = 10;
+int highest_number = 0;
+long evenHigher = 0;
 float backwardsCounting = 0.1;
 double wayBack = 0.0;
 //
-// Concatenation
-//print();
-println("\nThe following lines are used for experimenting:");
-println("\n" + name + phrase + first_number);
-println("\t", name, phrase, first_number);
+// Concatenation: two ways
+//println();
+println("\nCompare the difference in the next lines of concatentation describing the coding symbol change and the return difference?");
+println("\n" + name + phrase + highest_number);
+println("\n", name, phrase, highest_number);
 //
-println("\nCounting with Formulae");
-println("Starting Variable is", first_number); 
-higherNumber = first_number+=6;
-println("Assignment Example, as formula:", first_number*=3);
-println("Memory Variable is", higherNumber-=3);
-println("Arithmetic Example as formula:",first_number/5);
-println("Modulo or Modulus Example:",higherNumber % 6);
+// Pick a number and create formuale to return the value in two ways (into println or summative variable and then println)
+/*Use following operators (See Processing.org / Reference / Opertators)
+Arithmetic Operators: +, -, *, /
+Assignment Operators: +=, -=, *=
+Modulus or Modulo: %
+*/
+println("\nCounting with Formulae, exemplars using Baker's Dozen"); //Baker's Dozen,  Double Baker's Dozen,  Double Baker's Dozen & One More
+println("Starting Variable is", highest_number); //Returns 0
+evenHigher = highest_number+=13; //Returns Baker's Dozen,
+println("Assignment Example, as formula:", highest_number+=13); //Returns 2xBaker's Dozen
+println("Memory Variable is", evenHigher); //Returns Baker's Dozen as memory
+println("Arithmetic Example as formula:", highest_number+1); //Returns 1+2xBaker's Dozen
+println("Modulo or Modulus Example:", evenHigher % 14); //Returns Baker's Dozen, as a remainder
 /*
-
-
 */
